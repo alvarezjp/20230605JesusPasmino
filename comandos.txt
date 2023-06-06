@@ -1,0 +1,40 @@
+  518  mkdir 20230605JesusPasmino
+  519  ls
+  520  cd 20230605JesusPasmino/
+  521  git init
+  522  git branch -m master main
+  523  touch comandos.txt
+  524  touch main.js
+  525  touch index.html
+  526  ls
+  527  git add .
+  528  git commit -m " commit 01 de JesusPasmiño"
+  529  git push origin main
+  530  git status
+  531  git remote add origin https://github.com/alvarezjp/20230605JesusPasmino.git
+  532  git status
+  533  git push origin main
+  534  git checkout -b "feature"
+  535  mkdir hardware software SeguridadInformatica
+  536  touch hardware/resumen.txt
+  537  touch software/resumen.txt
+  538  touch SeguridadInformatica/resumen.txt
+  539  ls -R
+  540  git status
+  541  git add .
+  542  git commit -m " commit 02 de JesusPasmiño"
+  543  git push origin feature
+  544  git checkout main
+  545  mv main.js/resumenHardware.txt
+  546  ls
+  547  mv main.js resumenHardware.txt
+  548  ls
+  549  mv index.html resumenSoftware.txt
+  550  ls
+  551  echo "paint , google Chrome , firefox" > resumenSoftware.txt
+  552  echo " Ram, Rom, cache" > resumenHardware.txt
+  553  history
+  554  history 20
+  555  history 30
+  556  history 40
+  557  history 40 > comandos.txt
